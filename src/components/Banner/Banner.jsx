@@ -22,7 +22,7 @@ const Banner = () => {
                     animate={{ opacity: 1, y: 0, transition: { duration: 1.2 } }}
                     className='text-6xl font-bold'>Developer</motion.h1>
                 <p className='mt-6 text-lg font-mono'>Basically MERN Stack Developer works for building websites through javascript,react,tailwindCss and backend techs.Also capable of making user friendly websites and bosting users using ability and satisfaction</p>
-                <a href="Md Morshed_MERN Stack Developer.pdf" className='btn btn-neutral hover:text-black hover:bg-white hover:border-2 mt-3 text-xl' download="/src/assets/Md Morshed_MERN Stack Developer.pdf">Resume</a>
+                <a href="/src/assets/Md Morshed_MERN Stack Developer.pdf" className='btn btn-neutral hover:text-black hover:bg-white hover:border-2 mt-3 text-xl' download>Resume</a>
                 <Link to='mailto:mdmorshed0187@gmail.com'><span className='text-2xl underline ml-5 font-semibold contact '>Contact</span></Link>
             </div>
             <div className='-mr-5'>
