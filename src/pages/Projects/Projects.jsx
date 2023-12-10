@@ -48,7 +48,7 @@ const Projects = () => {
                     <h2 className="card-title text-3xl font-bold style">Jobs World</h2>
                     <p className='text-justify'>This website indicates about job hunting and posting thoughts.There anyone can post a job or jobs and the same person can apply for the job.But no one can apply for the job that he/she added.</p>
                     <div className="card-actions items-center justify-start mt-3">
-                        <Link to='https://jobs-world-client-am11.web.app/' target="blank" className='btn btn-outline'>Live Link</Link>
+                        <Link to='https://wondrous-trifle-3074aa.netlify.app/' target="blank" className='btn btn-outline'>Live Link</Link>
                         <Link to='https://github.com/I-am-MoRsHeD/jobs-world-client-am11.git' target="blank" className='text-3xl ml-3'><FaGithub /></Link>
                     </div>
                 </div>
