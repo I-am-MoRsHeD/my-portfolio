@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 const Projects = () => {
     return (
@@ -17,7 +17,7 @@ const Projects = () => {
                 className="text-5xl font-bold mb-10 mt-2">To Display</motion.h1>
             {/* cooking god project */}
             <div data-aos="fade-up"
-                    data-aos-duration="2000" className="card card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
+                data-aos-duration="2000" className="card card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
                 <div className='w-9/12'>
                     <motion.figure
                         whileHover={{ scale: 1.1 }}
@@ -37,7 +37,7 @@ const Projects = () => {
             <div className="divider mt-10"></div>
             {/* Jobs World project */}
             <div data-aos="fade-up"
-                    data-aos-duration="2000" className="card mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
+                data-aos-duration="2000" className="card mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
                 <div className='w-9/12'>
                     <motion.figure
                         whileHover={{ scale: 1.1 }}
@@ -57,7 +57,7 @@ const Projects = () => {
             <div className="divider mt-10"></div>
             {/* Tech brand project */}
             <div data-aos="fade-up"
-                    data-aos-duration="2000" className="card mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
+                data-aos-duration="2000" className="card mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
                 <div className='w-9/12'>
                     <motion.figure
                         whileHover={{ scale: 1.1 }}

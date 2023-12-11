@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 const Banner = () => {
     return (
-        <div className='flex h-full mb-10 justify-between items-center max-w-5xl mx-auto'>
+        <div className='flex h-full justify-between items-center max-w-5xl mx-auto'>
             <div className='flex-1 ml-5'>
                 <h1 className='text-3xl ml-1'>I am a </h1>
                 <motion.h1
@@ -26,7 +26,8 @@ const Banner = () => {
                 <Link to='mailto:mdmorshed0187@gmail.com'><span className='text-2xl underline ml-5 font-semibold contact '>Contact</span></Link>
             </div>
             <div className='-mr-5'>
-                <img src="https://i.ibb.co/z7R1Dyk/OATH1867-removebg-preview.png" alt="" />
+                {/* <img src="https://i.ibb.co/z7R1Dyk/OATH1867-removebg-preview.png" alt="" /> */}
+                <img className='border-8 border-t-teal-400 border-b-teal-400 border-r-0 border-l-0 rounded-tl-full rounded-bl-full' src="https://i.ibb.co/Gx5MsyD/IMG-20231113-WA0024-removebg-preview.png" alt="" />
             </div>
         </div>
     );

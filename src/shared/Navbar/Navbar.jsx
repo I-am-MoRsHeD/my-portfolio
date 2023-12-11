@@ -43,7 +43,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-center style text-xl ml-28">
-          <Link to='/'>Md Morshed</Link>
+          <Link to='/'><img className='w-52 rounded-full bg-gradient-to-l from-[#F6F7E9] via-cyan-200' src="https://i.ibb.co/QncM1jG/logo-2.png" alt="" /></Link>
         </div>
         <div className="navbar-end hidden lg:flex flex-row space-x-4 text-xl">
           <Link title='LinkedIn' className='text-2xl' target='blank' to='https://github.com/I-am-MoRsHeD'><FaGithub /></Link>
