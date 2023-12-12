@@ -10,21 +10,21 @@ const Projects = () => {
             <motion.h1
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0, transition: { duration: 1.2 } }}
-                className="text-5xl font-bold">From Thoughts</motion.h1>
+                className="text-4xl lg:text-5xl font-bold">From Thoughts</motion.h1>
             <motion.h1
                 initial={{ opacity: 0.5, y: 70 }}
                 animate={{ opacity: 1, y: 0, transition: { duration: 1.2 } }}
-                className="text-5xl font-bold mb-10 mt-2">To Display</motion.h1>
+                className="text-4xl lg:text-5xl font-bold mb-10 mt-2">To Display</motion.h1>
             {/* cooking god project */}
             <div data-aos="fade-up"
-                data-aos-duration="2000" className="card card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
-                <div className='w-9/12'>
+                data-aos-duration="2000" className="card flex flex-col lg:flex-row card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
+                <div className='lg:w-9/12 w-full'>
                     <motion.figure
                         whileHover={{ scale: 1.1 }}
                         transition={{ type: "spring", stiffness: 50, damping: 5 }}
                     ><img className='w-full' src="https://i.ibb.co/47CD26q/Screenshot-66.png" alt="Movie" /></motion.figure>
                 </div>
-                <div className="card-body w-96 ml-5">
+                <div className="card-body lg:w-96 w-full ml-0 lg:ml-5">
                     <h2 className="card-title text-3xl font-bold style">Cooking God</h2>
                     <p className='text-justify'>This websites offers three types of user - Normal Users,Premium Users and Admins.This is a meal distribution site where a normal user can just see the details and review,premium users have permission to Meal request and others and admin will handle the site and user activity.</p>
                     <div className="card-actions items-center justify-start mt-3">
@@ -37,14 +37,14 @@ const Projects = () => {
             <div className="divider mt-10"></div>
             {/* Jobs World project */}
             <div data-aos="fade-up"
-                data-aos-duration="2000" className="card mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
-                <div className='w-9/12'>
+                data-aos-duration="2000" className="card flex flex-col lg:flex-row mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
+                <div className='lg:w-9/12 w-full'>
                     <motion.figure
                         whileHover={{ scale: 1.1 }}
                         transition={{ type: "spring", stiffness: 50, damping: 5 }}
                     ><img className='w-full' src="https://i.ibb.co/nBCSGmW/Screenshot-67.png" alt="Movie" /></motion.figure>
                 </div>
-                <div className="card-body w-96 ml-5">
+                <div className="card-body lg:w-96 w-full ml-0 lg:ml-5">
                     <h2 className="card-title text-3xl font-bold style">Jobs World</h2>
                     <p className='text-justify'>This website indicates about job hunting and posting thoughts.There anyone can post a job or jobs and the same person can apply for the job.But no one can apply for the job that he/she added.</p>
                     <div className="card-actions items-center justify-start mt-3">
@@ -57,14 +57,14 @@ const Projects = () => {
             <div className="divider mt-10"></div>
             {/* Tech brand project */}
             <div data-aos="fade-up"
-                data-aos-duration="2000" className="card mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
-                <div className='w-9/12'>
+                data-aos-duration="2000" className="card flex flex-col lg:flex-row mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
+                <div className='lg:w-9/12 w-full'>
                     <motion.figure
                         whileHover={{ scale: 1.1 }}
                         transition={{ type: "spring", stiffness: 50, damping: 5 }}
                     ><img className='w-full' src="https://i.ibb.co/47sh7yz/Screenshot-68.png" alt="Movie" /></motion.figure>
                 </div>
-                <div className="card-body w-96 ml-5">
+                <div className="card-body lg:w-96 w-full ml-0 lg:ml-5">
                     <h2 className="card-title text-3xl font-bold style">Tech Brand</h2>
                     <p className='text-justify'>On this site,one can add product and can update product details.One can cart product in easy way.But if the user is not logged in,he/she cannot do anything.</p>
                     <div className="card-actions items-center justify-start mt-3">
