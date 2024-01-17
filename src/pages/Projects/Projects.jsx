@@ -17,7 +17,7 @@ const Projects = () => {
                 className="text-4xl lg:text-5xl font-bold mb-10 mt-2">To Display</motion.h1>
             {/* cooking god project */}
             <div data-aos="fade-up"
-                data-aos-duration="2000" className="card flex flex-col lg:flex-row card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
+                data-aos-duration="2000" className="card flex flex-col lg:flex-row card-side lg:p-10 p-3 bg-base-100 shadow-xl hover:shadow-slate-400">
                 <div className='lg:w-9/12 w-full'>
                     <motion.figure
                         whileHover={{ scale: 1.1 }}
@@ -37,7 +37,7 @@ const Projects = () => {
             <div className="divider mt-10"></div>
             {/* Jobs World project */}
             <div data-aos="fade-up"
-                data-aos-duration="2000" className="card flex flex-col lg:flex-row mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
+                data-aos-duration="2000" className="card flex flex-col lg:flex-row mt-10 card-side lg:p-10 p-3 bg-base-100 shadow-xl hover:shadow-slate-400">
                 <div className='lg:w-9/12 w-full'>
                     <motion.figure
                         whileHover={{ scale: 1.1 }}
@@ -57,7 +57,7 @@ const Projects = () => {
             <div className="divider mt-10"></div>
             {/* Tech brand project */}
             <div data-aos="fade-up"
-                data-aos-duration="2000" className="card flex flex-col lg:flex-row mt-10 card-side p-10 bg-base-100 shadow-xl hover:shadow-slate-400">
+                data-aos-duration="2000" className="card flex flex-col lg:flex-row mt-10 card-side lg:p-10 p-3 bg-base-100 shadow-xl hover:shadow-slate-400">
                 <div className='lg:w-9/12 w-full'>
                     <motion.figure
                         whileHover={{ scale: 1.1 }}

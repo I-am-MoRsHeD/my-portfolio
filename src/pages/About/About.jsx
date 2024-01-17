@@ -18,8 +18,8 @@ const About = () => {
                 className="lg:text-5xl text-3xl style text-center font-bold mb-10">From Nothing To Something</motion.h1>
 
             {/* about me section */}
-            <div className='flex justify-center mb-10 gap-32 items-center'>
-                <div className='w-1/2'>
+            <div className='flex justify-center mb-10 lg:gap-32 items-center'>
+                <div className='lg:w-1/2 lg:px-0 px-5'>
                     <h3 className='text-xl lg:text-3xl font-bold mb-4'>Who Am I?</h3>
                     <div className="divider w-1/3"></div>
                     <p className=' mb-4'>Hello!I am <span className='text-2xl font-bold'>Md Morshed</span> from Chattogram,Bangladesh.I am a MERN Stack Developer and i can build websites in condition of user friendly,based on user comportablity.I can make Frontend websites using obviously Javascript,React,TailwindCSS,Vanilla CSS and others which needed i can apply into site.</p>
@@ -40,7 +40,7 @@ const About = () => {
                 <div
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className='grid grid-cols-3 lg:grid-cols-7 justify-center gap-16 items-center mt-20'>
+                    className='grid grid-cols-3 lg:grid-cols-7 justify-center gap-16 items-center mt-20 px-3 lg:px-0'>
 
                     <div>
                         <div className="radial-progress" style={{ "--value": 80 }} role="progressbar">90%</div>
@@ -76,7 +76,7 @@ const About = () => {
                 <div
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className='grid lg:grid-cols-7 grid-cols-3 mt-10 justify-center gap-16 items-center'>
+                    className='grid lg:grid-cols-7 grid-cols-3 mt-10 justify-center gap-16 items-center px-3 lg:px-0'>
 
                     <div>
                         <div className="radial-progress" style={{ "--value": 80 }} role="progressbar">70%</div>
@@ -111,7 +111,7 @@ const About = () => {
                 </div>
             </div>
             {/* education */}
-            <div className='my-20'>
+            <div className='my-20 px-5 lg:px-0'>
                 <h1 data-aos="fade-up"
                     data-aos-duration="2000" className="text-5xl style text-center font-bold ">Education</h1>
                 <div className="divider w-1/3 mx-auto"></div>
