@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 const Banner = () => {
     return (
-        <div className='flex h-full justify-between items-center max-w-5xl mx-auto'>
+        <div className='flex h-full justify-between items-center max-w-6xl mx-auto'>
             <div className='flex-1 ml-5'>
                 <h1 className='text-lg lg:text-3xl ml-1'>I am a </h1>
                 <motion.h1

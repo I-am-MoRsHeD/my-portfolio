@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
     return (
-        <div className='max-w-5xl mx-auto text-center my-10'>
+        <div className='max-w-6xl mx-auto text-center my-10'>
             <motion.h1
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0, transition: { duration: 1.2 } }}

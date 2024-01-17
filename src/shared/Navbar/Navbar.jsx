@@ -12,9 +12,10 @@ const Navbar = () => {
     <li><Link to='/'>Home</Link></li>
     <li><Link to='/about'>About</Link></li>
     <li><Link to='/projects'>Projects</Link></li>
+    <li><Link to='/contact'>Contact Me</Link></li>
   </>
   return (
-    <div className='max-w-5xl mx-auto'>
+    <div className='max-w-6xl mx-auto'>
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 1.2 } }}
@@ -40,6 +41,8 @@ const Navbar = () => {
             onClick={() => setSelectedTab('About')}><Link className={ selectedTab === 'About' ? `underline` : ''} to='/about'>About</Link></li>
             <li
             onClick={() => setSelectedTab('Projects')}><Link className={ selectedTab === 'Projects' ? `underline` : ''} to='/projects'>Projects</Link></li>
+            <li
+            onClick={() => setSelectedTab('Contact Me')}><Link className={ selectedTab === 'Contact Me' ? `underline` : ''} to='/contact'>Contact Me</Link></li>
           </ul>
         </div>
         <div className="navbar-center style text-xl ml-28">
